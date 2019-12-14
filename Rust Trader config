@@ -1,0 +1,47 @@
+		OffroadHatchback_Firefighter,      V,      2000,       0
+    OffroadHatchback_PoliceRus,        V,      2000,       0
+		Hatchback_02_Pizzapresto,          V,      2000,       0
+		Hatchback_02_cab,                  V,      2000,       0
+		Sedan_02_Medic01,                  V,      999999,     0    
+		Sedan_02_sk_policja,               V,      999999,     0
+		Sedan_02_peacebird,                V,       2000,		   0
+    
+ -----> Break. DO NOT COPY THIS LINE <---------   
+ 
+    HatchbackDoors_Driver_Firefighter,             *,      2500,   1000
+        HatchbackDoors_CoDriver_Firefighter,       *,      2200,   1200
+        HatchbackHood_Firefighter,                 *,      2500,   1000
+        HatchbackTrunk_Firefighter,                *,      2500,   1000
+        HatchbackDoors_Driver_cab,                 *,      2500,   1000
+        HatchbackDoors_CoDriver_cab,               *,      2200,   1200
+        HatchbackHood_cab,                         *,      2500,   1000
+        HatchbackTrunk_cab,                        *,      2500,   1000
+        HatchbackDoors_Driver_PoliceRus,           *,      2500,   1000
+        HatchbackDoors_CoDriver_PoliceRus,         *,      2500,   1000
+        HatchbackHood_PoliceRus,                    *,      2500,   1000
+        HatchbackTrunk_PoliceRus,                   *,      2200,   1200
+        Hatchback_02_Door_1_1_Cab,                  *,      2500,   1000
+        Hatchback_02_Door_2_1_Cab,                  *,      2500,   1000
+        Hatchback_02_Door_1_2_Cab,                  *,      2500,   1000
+        Hatchback_02_Door_2_2_Cab,                  *,      2500,   1000 
+        Hatchback_02_Hood_Cab,                      *,      2000,   1000
+        Hatchback_02_Trunk_Cab,                     *,      500,      75
+        Hatchback_02_Door_1_1_Pizzapresto,          *,      500,      75
+        Hatchback_02_Door_2_1_Pizzapresto,          *,      500,      75
+        Hatchback_02_Door_1_2_Pizzapresto2,         *,      500,      75
+        Hatchback_02_Door_2_2_Pizzapresto,          *,      600,     300
+        Hatchback_02_Hood_Pizzapresto,              *,      650,     325
+        Hatchback_02_Trunk_Pizzapresto,             *,      650,     325
+        Sedan_02_Door_1_1_Medic01,                  *,      800,     400
+        Sedan_02_Door_2_1_Medic01,                  *,      800,     400
+        Sedan_02_Door_1_2_Medic01,                  *,      600,     300
+        Sedan_02_Door_2_2_Medic01,                  *,      200,     100
+        Sedan_02_Hood_Medic01,                      *,      200,     100
+        Sedan_02_Trunk_Medic01,                     *,      600,     300
+		Sedan_02_Hood_chdkz,                            *,      600,     300
+	    Sedan_02_Door_1_2_chdkz,                      *,      2500,   1000
+	    Sedan_02_Hood_graffiti1,                      *,      2500,   1000
+	    Sedan_02_Hood_graffiti2,                      *,      2500,   1000
+	    Sedan_02_Door_1_1_graffiti1,                  *,      2500,   1000
+	    Sedan_02_Trunk_graffiti1,                     *,      2500,   1000
+	    Sedan_02_Trunk_graffiti2,                     *,      2500,   1000
