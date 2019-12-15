@@ -524,15 +524,15 @@
 
 	<Category> Masks
 		SurgicalMask,			*,		15,		3
-		BandanaMask_PolkaPattern,*,		25,		6
-		BandanaMask_RedPattern,	*,		25,		6
-		BandanaMask_BlackPattern,*,		25,		6
-		BandanaMask_GreenPattern,*,		30,		8
-		BandanaMask_CamoPattern,*,		35,		10
+		BandanaMask_PolkaPattern,	*,		25,		6
+		BandanaMask_RedPattern,		*,		25,		6
+		BandanaMask_BlackPattern,	*,		25,		6
+		BandanaMask_GreenPattern,	*,		30,		8
+		BandanaMask_CamoPattern,	*,		35,		10
 		NioshFaceMask,			*,		40,		10
-		HockeyMask,				*,		40,		10
+		HockeyMask,			*,		40,		10
 		//HoxtonMask,			*,		40,		10
-		//WolfMask,				*,		40,		10
+		//WolfMask,			*,		40,		10
 		//DallasMask,			*,		40,		10
 		Balaclava3Holes_Blue,	*,		50,		12
 		Balaclava3Holes_Beige,	*,		50,		12
