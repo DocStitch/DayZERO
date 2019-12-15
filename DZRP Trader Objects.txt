@@ -1,5 +1,7 @@
 // ------------------------------------------------------ Trader Markers -------------------------------------------------------
 
+// Custom:
+
 // Drugs:
 
 <TraderMarker> 			6 									// Trader ID
@@ -17,6 +19,40 @@
 <TraderMarker> 			8
 <TraderMarkerPosition>	6339.09,    289.37,    7455.68
 <TraderMarkerSafezone>	10
+
+// Police Uniform Portal :
+
+<TraderMarker> 			9
+<TraderMarkerPosition>	3726.52,    315.611,    8928.95
+<TraderMarkerSafezone>	1
+
+// Medical Uniform Portal:
+
+<TraderMarker> 			10
+<TraderMarkerPosition>	3757.66,    312.565,    9014.86
+<TraderMarkerSafezone>	1
+
+// Medical Dispatch:
+
+<TraderMarker> 			11
+<TraderMarkerPosition>	3749.88,	312.569,	9017.3
+<TraderMarkerSafezone>	1
+<VehicleSpawn>			3772.66,	311.673,	9004.04
+<VehicleSpawnOri>		-42,		0,			0
+
+// Police Dispatch:
+
+<TraderMarker> 			12
+<TraderMarkerPosition>	3725.58,	315.613,	8919.33
+<TraderMarkerSafezone>	1
+<VehicleSpawn>			3687.96,	311.002,	8913.69
+<VehicleSpawnOri>		-42,		0,			0
+
+// Furniture:
+
+<TraderMarker> 			13
+<TraderMarkerPosition>	2675.66,    205.697,    5284.74
+<TraderMarkerSafezone>	20
 
 // Green Mountain:
 
@@ -77,6 +113,8 @@
 
 // ------------------------------------------------------ Objects to Spawn ------------------------------------------------------
 
+// Custom:
+
 // Drugs:
 
 <Object> 			SurvivorM_Seth
@@ -129,6 +167,74 @@
 <ObjectAttachment>	HuntingJacket_Brown
 <ObjectAttachment>	HunterPants_Brown
 <ObjectAttachment>	WorkingBoots_Grey
+
+// Police Uniform Portal:
+
+<Object> 			SurvivorM_Seth
+<ObjectPosition>	3726.52,    315.611,    8928.95
+<ObjectOrientation>	-51.969990, 0,			0
+<ObjectAttachment>	officerhat_OPP
+<ObjectAttachment>	OMNOGloves_Gray
+<ObjectAttachment>	Shirt_OPP
+<ObjectAttachment>	PolicePants_OPP
+<ObjectAttachment>	MilitaryBoots_Bluerock
+<ObjectAttachment>	PressVest_OPP
+
+// Medical Uniform Portal:
+
+<Object> 			SurvivorM_Seth
+<ObjectPosition>	3757.66,    312.565,    9014.86
+<ObjectOrientation>	-51.969990, 0,			0
+<ObjectAttachment>	BeanieHat_OPA
+<ObjectAttachment>	SurgicalGloves_Blue
+<ObjectAttachment>	MassSmershvestWW2complete
+<ObjectAttachment>	ParamedicJacket_OPA
+<ObjectAttachment>	ParamedicPants_OPA
+<ObjectAttachment>	MilitaryBoots_Black
+<ObjectAttachment>	SurgicalMask
+
+// Medical Dispatch:
+
+<Object> 			SurvivorM_Seth
+<ObjectPosition>	3749.88,	312.569,	9017.3
+<ObjectOrientation>	-51.969990, 0,			0
+<ObjectAttachment>	BeanieHat_OPA
+<ObjectAttachment>	SurgicalGloves_Blue
+<ObjectAttachment>	MassSmershvestWW2complete
+<ObjectAttachment>	ParamedicJacket_OPA
+<ObjectAttachment>	ParamedicPants_OPA
+<ObjectAttachment>	MilitaryBoots_Black
+<ObjectAttachment>	SurgicalMask
+
+//Cone for parking at Medical office
+
+<Object>			Land_RoadCone
+<ObjectPosition>	3770.7,	311.656,	9006.05
+<ObjectOrientation>	-64.0013,	0,			0
+
+// Police Dispatch:
+
+<Object> 			SurvivorM_Seth
+<ObjectPosition>	3725.58,	315.613,	8919.33
+<ObjectOrientation>	-51.969990, 0,			0
+<ObjectAttachment>	BallisticHelmet_Green
+<ObjectAttachment>	TacticalGloves_Green
+<ObjectAttachment>	Shirt_OPPSwat
+<ObjectAttachment>	MassHeavyPlateVest_OPP
+<ObjectAttachment>	cargoPants_OPPSwat
+<ObjectAttachment>	MilitaryBoots_Black
+<ObjectAttachment>	Balaclava3Holes_Green
+
+// Furniture:
+
+<Object> 			SurvivorF_Irena
+<ObjectPosition>	2675.66,    205.697,    5284.74
+<ObjectOrientation>	-13.234265, 0,			0
+<ObjectAttachment>	BoxCerealCrunchin
+<ObjectAttachment>	SurgicalGloves_White
+<ObjectAttachment>	Bandana_Polkapattern
+<ObjectAttachment>	MiniDress_PinkChecker
+<ObjectAttachment>	DressShoes_White
 
 // Green Mountain:
 
