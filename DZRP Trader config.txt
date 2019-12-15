@@ -943,12 +943,16 @@
 		OffroadHatchback,		V,		2000,	500	// Use VNK instead of V as Quantity to not give a Vehicle Key when bought.
 		Hatchback_02,			V,		2200,	550
 		CivilianSedan,			V,		3500,	750
+        Hatchback_02_Black,   V,      2200,       550
+        Hatchback_02_Blue,     V,      2200,      550
+		OffroadHatchback_Blue, V,      2000,       500
+		OffroadHatchback_White, V,     2000,       500
+		CivilianSedan_Black,    V,      3500,      750    
+		CivilianSedan_Wine,     V,      3500,      750         
         OffroadHatchback_Firefighter,   V,      2000,       0
         OffroadHatchback_PoliceRus,     V,      2000,        0
 		Hatchback_02_Pizzapresto,    V,      2000,       0
 		Hatchback_02_cab,            V,     2000,       0
-		Sedan_02_Medic01,        V,      999999,       0    
-		Sedan_02_sk_policja,     V,      999999,       0
 		Sedan_02_peacebird,      V,    2000,	0   
         
 	<Category> Vehicle Parts
@@ -1180,5 +1184,122 @@
 		CowPelt,			S,		0,		5
 		PigPelt,			S,		0,		5
 		BearPelt,			S,		0,		100
+
+<Trader> Police Uniform Portal
+	<Category> Weapons	
+		Taser,						*,		0,		0
+		Mag_Taser,					*,		0,		0
+		StunBaton,					*,		0,		0
+		Battery9V,					*,		0,		0
+		glock_18,					*,		0,		0
+		Mag_glock_18_17Rnd,			*,		0,		0
+		AmmoBox_9x19_25rnd,			*,		0,		0
+		Massarmsan,					*,		0,		0
+		AmmoBox_12gaBB,				*,		0,		0
+		AmmoBox_12gaSlug_10Rnd,		*,		0,		0
+		MassM16,					*,		0,		0
+		M4_Suppressor,				*,		0,		0
+		Mag_STANAGCoupled_30Rnd,	*,		0,		0
+		AmmoBox_556x45Tracer_20Rnd,	*,		0,		0
+		
+	<Category> Clothing/Equipment
+		Shirt_OPP,					*,		0,	0
+		Shirt_OPPSwat,				*,		0,	0
+		PolicePants_OPP,			*,		0,	0
+		cargoPants_OPPSwat,			*,		0,	0
+		PlateCarrierHolster_OPP,	*,		0,	0
+		PlateCarrierPouches_OPP,	*,		0,	0
+		MilitaryBoots_Bluerock,		*,		0,	0
+		TacticalGloves_Black,		*,		0,	0
+		Balaclava3Holes_Green,		*,		0,	0
+		TacticalGloves_Green,		*,		0,	0
+		MilitaryBoots_Black,		*,		0,	0
+		BallisticHelmet_Green
+		officerhat_OPP
+		
+	<Category> Armor
+		PressVest_OPP,				*,		0,	0
+		MassHeavyPlateVest_OPP,		*,		0,	0
+
+<Trader> Medical Uniform Portal
+	<Category> Clothing	
+		ParamedicJacket_OPA,		*,		0,		0
+		ParamedicPants_OPA,			*,		0,		0
+		BeanieHat_OPA,				*,		0,		0
+		JungleBoots_Black,			*,		0,		0
+		MassSmershvestWW2complete,	*,		0,		0
+		MassSmersh,					*,		0,		0
+		SurgicalMask,				*,		0,		0
+		SurgicalGloves_Blue,		*,		0,		0
+		
+	<Category> Equipment
+		BandageDressing,			*,		0,	0
+		StartKitIV,					*,		0,	0
+		BloodTestKit,				*,		0,	0
+		BloodBagEmpty,				*,		0,	0
+		StartKitIV,					*,		0,	0
+		SalineBag,					*,		0,	0
+		Syringe,					*,		0,	0
+		
+	<Category> Medicine	
+		ToxicCure,		*,		0,		0
+		Morphine,		*,		0,		0
+		Epinephrine,	*,		0,		0		
+		Morphine,		*,		0,		0
+		BP_Iod,			*,		0,		0
+		BP_Zelenka,		*,		0,		0
+		BP_Ampiciline_flask,	*,		0,		0
+		BP_Ceftazidim_flask,	*,		0,		0
+		BP_InjectionVial,		*,		0,		0
+		BP_Magnezia,			*,		0,		0
+		BP_Drotaverine,			*,		0,		0
+		VitaminBottle,			*,		0,		0
+		TetracyclineAntibiotics,		*,		0,		0
+		PainkillerTablets,		*,		0,		0
+		BP_Ampiciline_flask,	*,		0,		0
+		BP_Ceftazidim_flask,	*,		0,		0
+		BP_InjectionVial,		*,		0,		0
+		BP_Magnezia,			*,		0,		0
+
+<Trader> Medical Dispatch
+	<Category> Vehicles
+		Sedan_02_Medic01,        V,      0,       0    
+         
+	<Category> Garage
+		HeadlightH7_Box,			*,		0,		0
+		SparkPlug,					*,		0,		0
+		CarBattery,					*,		0,		0
+		CarRadiator,				*,		0,		0
+		TireRepairKit,				*,		0,		0
+		Sedan_02_Wheel,				*,		0,		0
+        Sedan_02_Door_1_1_Medic01,  *,      0,     0
+        Sedan_02_Door_2_1_Medic01,  *,      0,     0
+        Sedan_02_Door_1_2_Medic01,  *,      0,     0
+        Sedan_02_Door_2_2_Medic01,  *,      0,     0
+        Sedan_02_Hood_Medic01,      *,      0,     0
+        Sedan_02_Trunk_Medic01,     *,      0,     0
+
+<Trader> Police Dispatch
+	<Category> Vehicles
+		Sedan_02_sk_policja,        V,      0,       0    
+         
+	<Category> Garage
+		HeadlightH7_Box,			*,		0,		0
+		SparkPlug,					*,		0,		0
+		CarBattery,					*,		0,		0
+		CarRadiator,				*,		0,		0
+		TireRepairKit,				*,		0,		0
+		Sedan_02_Wheel,				*,		0,		0
+
+<Trader> Furniture								
+			
+	<Category> Lowe-Home
+		BP2_carpet_Kit,			*,		150,		0
+		gunwall_metal_kit_mung,	*,		500,		0
+		gunwall_kit_mung,		*,		500,		0
+		BP_FridgeBig,			*,		1500,		0
+		BP_Shelf,				*,		500,		0
+		hardigg_Mung,			*,		1000,		0
+		ballgrill_mung,			*,		150,		0
         
 <FileEnd>												// This has to be on the End of this File and is very importand!
