@@ -18,39 +18,39 @@
                
 <Trader> Consume Trader								// Trader Name (first Trader has ID = 0, second Trader has ID = 1, and so on..)
 	<Category> Vegetables							// Category Name
-		Apple,					*,		-1,		2	// Item Classname, Quantity, Buyvalue, Sellvalue
+		Apple,				*,		-1,		2	// Item Classname, Quantity, Buyvalue, Sellvalue
 		GreenBellPepper,		*,		-1,		2
-		Pear,					*,		-1,		2	// Quantity * means max value; Quantity V means Vehicle; Quantity VNK means Vehicle without Key; Quantity M means Magazine; Quantity W means Weapon; Quantity S means Steack Meat; Quantity K means Key Duplication
-		Plum,					*,		-1,		2	// Buyvalue -1 means it can not be bought
-		Potato,					*,		-1,		2	// Sellvalue -1 means it can not be selled
-		Tomato,					*,		-1,		2
-		Zucchini,				*,		-1,		2
-		Pumpkin,				*,		-1,		2
+		Pear,				*,		-1,		2	// Quantity * means max value; Quantity V means Vehicle; Quantity VNK means Vehicle without Key; Quantity M means Magazine; Quantity W means Weapon; Quantity S means Steack Meat; Quantity K means Key Duplication
+		Plum,				*,		-1,		2	// Buyvalue -1 means it can not be bought
+		Potato,				*,		-1,		2	// Sellvalue -1 means it can not be selled
+		Tomato,				*,		-1,		2
+		Zucchini,			*,		-1,		2
+		Pumpkin,			*,		-1,		2
 		CaninaBerry,			*,		1,		2
 		SambucusBerry,			*,		1,		2
 		AgaricusMushroom,		*,		2,		2
 		AmanitaMushroom,		*,		2,		2
 		LactariusMushroom,		*,		2,		2
-		MacrolepiotaMushroom,	*,		2,		2
+		MacrolepiotaMushroom,		*,		2,		2
 		PsilocybeMushroom,		*,		2,		2
-		AuriculariaMushroom,	*,		2,		2
+		AuriculariaMushroom,		*,		2,		2
 		BoletusMushroom,		*,		2,		2
 		PleurotusMushroom,		*,		2,		2
 	
 	<Category> Packaged Food
 		PowderedMilk,			*,		15,		3
 		BoxCerealCrunchin,		*,		15,		3
-		Rice,					*,		15,		3
-		Marmalade,				*,		15,		3
-		PeachesCan,				*,		13,		5
+		Rice,				*,		15,		3
+		Marmalade,			*,		15,		3
+		PeachesCan,			*,		13,		5
 		SardinesCan,			*,		13,		5
-		TunaCan,				*,		10,		5
+		TunaCan,			*,		10,		5
 		SpaghettiCan,			*,		13,		5
 		BakedBeansCan,			*,		13,		5
 		TacticalBaconCan,		*,		15,		5		
 		
 	<Category> Meat
-		Lard,					S,		-1,		3
+		Lard,				S,		-1,		3
 		ChickenBreastMeat,		S,		-1,		5
 		GoatSteakMeat,			S,		-1,		2
 		SheepSteakMeat,			S,		-1,		2
@@ -62,35 +62,35 @@
 		BearSteakMeat,			S,		-1,		8
 		
 	<Category> Drinks
-		SodaCan_Cola, 			*,		-1, 	5
-		SodaCan_Kvass, 			*,		-1, 	5
-		SodaCan_Pipsi, 			*,		-1, 	5
-		SodaCan_Spite, 			*,		-1, 	5
-		WaterBottle,			*,		15,		7
-		Canteen,				*,		25,		-1
+		SodaCan_Cola, 				*,		-1, 	5
+		SodaCan_Kvass, 				*,		-1, 	5
+		SodaCan_Pipsi, 				*,		-1, 	5
+		SodaCan_Spite, 				*,		-1, 	5
+		WaterBottle,				*,		15,	7
+		Canteen,				*,		25,	-1
 		
 	<Category> Medical Supplies
-		//Rag,					1,		-1,		-1
-		BandageDressing,		2,		-1,		2
-		BloodTestKit,			*,		-1,		2
-		//InjectionVial,		*,		-1, 	2
-		Thermometer,			*,		-1,		4
-		DisinfectantSpray,		*,		-1,		4
+		//Rag,					1,		-1,	-1
+		BandageDressing,			2,		-1,	2
+		BloodTestKit,				*,		-1,	2
+		//InjectionVial,			*,		-1, 	2
+		Thermometer,				*,		-1,	4
+		DisinfectantSpray,			*,		-1,	4
 		//Syringe,				*,		-1, 	-1
-		StartKitIV,				*,		-1,		2
-		SalineBag,				*,		-1,		2
-		BloodBagEmpty,			*,		-1,		3
-		FirstAidKit,			*,		-1,		5
-		//Defibrillator,		*,		-1, 		20
+		StartKitIV,				*,		-1,	2
+		SalineBag,				*,		-1,	2
+		BloodBagEmpty,				*,		-1,	3
+		FirstAidKit,				*,		-1,	5
+		//Defibrillator,			*,		-1, 	20
 		
 	<Category> Medications
-		CharcoalTablets,		*,		-1,		2
-		DisinfectantAlcohol,	*,		-1,		2
-		VitaminBottle,			*,		-1,		5
-		TetracyclineAntibiotics,*,		-1,		5
-		PainkillerTablets,		*,		-1,		5
-		Epinephrine,			*,		-1,		5
-		Morphine,				*,		-1,		5	
+		CharcoalTablets,			*,		-1,	2
+		DisinfectantAlcohol,			*,		-1,	2
+		VitaminBottle,				*,		-1,	5
+		TetracyclineAntibiotics,		*,		-1,	5
+		PainkillerTablets,			*,		-1,	5
+		Epinephrine,				*,		-1,	5
+		Morphine,				*,		-1,	5	
 		
 	<Category> Money Exchange
 		MoneyRuble1,			1,		1,		-1
@@ -98,165 +98,165 @@
 		MoneyRuble10,			1,		10,		-1
 		MoneyRuble25,			1,		25,		-1
 		MoneyRuble50,			1,		50,		-1
-		MoneyRuble100,			1,		100,	-1
+		MoneyRuble100,			1,		100,		-1
 
 
 <Trader> Misc Trader
 	<Category> Tools (small)
-		Screwdriver,			*,		-1,		4
-		Wrench,					*,		-1,		4
+		Screwdriver,				*,		-1,	4
+		Wrench,					*,		-1,	4
 		SewingKit,				*,		10, 	4
-		Pliers,					*,		7, 		4
-		LeatherSewingKit,		*,		13, 	4
-		Whetstone,				*,		10,		4
-		Hammer,					*,		10,		4
-		Hacksaw,				*,		10,		4
-		HandSaw,				*,		10,		4
-		WeaponCleaningKit,		*,		30, 	4
-		KitchenKnife,			*,		10,		4
-		SteakKnife,				*,		7,		4
-		HuntingKnife,			*,		13,		4
-		CanOpener,				*,		10,		4
-		Compass,				*,		10,		4
-		OrienteeringCompass,	*,		10,		4
-		Hatchet,				*,		15,		4
-		CombatKnife,			*,		15,		5
-		Machete,				*,		17,		6	
-		ChernarusMap,			*,		50,		5
+		Pliers,					*,		7, 	4
+		LeatherSewingKit,			*,		13, 	4
+		Whetstone,				*,		10,	4
+		Hammer,					*,		10,	4
+		Hacksaw,				*,		10,	4
+		HandSaw,				*,		10,	4
+		WeaponCleaningKit,			*,		30, 	4
+		KitchenKnife,				*,		10,	4
+		SteakKnife,				*,		7,	4
+		HuntingKnife,				*,		13,	4
+		CanOpener,				*,		10,	4
+		Compass,				*,		10,	4
+		OrienteeringCompass,			*,		10,	4
+		Hatchet,				*,		15,	4
+		CombatKnife,				*,		15,	5
+		Machete,				*,		17,	6	
+		ChernarusMap,				*,		50,	5
 		Lockpick,				*,		100,	10
 		Binoculars,				*,		100,	15		
 		
 	<Category> Tools (big)
-		LugWrench,				*,		12,		7
-		Crowbar,				*,		15,		7
-		Shovel,					*,		25,		7
-		Pickaxe,				*,		25,		7
-		SledgeHammer,			*,		25,		7
-		WoodAxe,				*,		25,		7
-		FirefighterAxe,			*,		30,		7
+		LugWrench,				*,		12,	7
+		Crowbar,				*,		15,	7
+		Shovel,					*,		25,	7
+		Pickaxe,				*,		25,	7
+		SledgeHammer,				*,		25,	7
+		WoodAxe,				*,		25,	7
+		FirefighterAxe,				*,		30,	7
 		
 	<Category> Electronics
-		Battery9V,				*,		25,		5
-		PersonalRadio,			*,		50,		7
-		Megaphone,				*,		30,		7
-		ElectronicRepairKit,	*,		35,		12
-		CableReel,				*,		40,		12
-		BatteryCharger,			*,		40,		12
+		Battery9V,				*,		25,	5
+		PersonalRadio,				*,		50,	7
+		Megaphone,				*,		30,	7
+		ElectronicRepairKit,			*,		35,	12
+		CableReel,				*,		40,	12
+		BatteryCharger,				*,		40,	12
 		BaseRadio,				*,		100,	12
-		Rangefinder,			*,		60,		20
+		Rangefinder,				*,		60,	20
 		NVGoggles,				*,		500,	75
 	
 	<Category> Fire & Lights
-		Chemlight_Blue,			*,		5,		1
-		Chemlight_Green,		*,		5,		1
-		Chemlight_Red,			*,		5,		1
-		Chemlight_White,		*,		5,		1
-		Chemlight_Yellow,		*,		5,		1
-		Roadflare,				*,		7,		2
-		Matchbox,				*,		10,		1
-		Heatpack,				*,		10,		4
-		Flashlight,				*,		25,		9
-		PortableGasLamp,		*,		50,		12
-		PortableGasStove,		*,		60,		13
-		Headtorch_Black,		*,		80,		12
-		Headtorch_Grey,			*,		80,		12
+		Chemlight_Blue,				*,		5,	1
+		Chemlight_Green,			*,		5,	1
+		Chemlight_Red,				*,		5,	1
+		Chemlight_White,			*,		5,	1
+		Chemlight_Yellow,			*,		5,	1
+		Roadflare,				*,		7,	2
+		Matchbox,				*,		10,	1
+		Heatpack,				*,		10,	4
+		Flashlight,				*,		25,	9
+		PortableGasLamp,			*,		50,	12
+		PortableGasStove,			*,		60,	13
+		Headtorch_Black,			*,		80,	12
+		Headtorch_Grey,				*,		80,	12
 		Spotlight,				*,		200,	25
 	
 	<Category> Cooking & Hunting Supplies
-		PurificationTablets,	*,		15,		1
-		Pot,					M,		75,		5
-		Tripod,					*,		50,		10
-		BearTrap,				*,		50,		13
+		PurificationTablets,			*,		15,	1
+		Pot,					M,		75,	5
+		Tripod,					*,		50,	10
+		BearTrap,				*,		50,	13
 	
 	<Category> Hardware Supplies
-		Paper,					*,		-1,		5
-		Pen_Blue,				*,		-1,		-1
-		Rope,					*,		10,		2
-		TannedLeather,			*,		10,		1
-		AntiPestsSpray,			*,		8,		4
-		MetalWire,				*,		25,		2
-		EpoxyPutty,				*,		25,		2
-		DuctTape,				*,		25,		4
-		XmasLights,				*,		10,		2
-		HandcuffKeys,			*,		-1,		-1
-		Handcuffs,				*,		-1,		-1
-		Netting,				1,		50,		15
-		BurlapSack,				*,		70,		15
-		WoodenPlank,			10,		10,		-1
-		MetalPlate,				*,		20,		-1
-		SmallProtectorCase,		*,		10,		5
-		AmmoBox,				*,		10,		10
-		SmallGasCanister,		*,		10,		3
-		MediumGasCanister,		*,		15,		5
-		LargeGasCanister,		*,		25,		7
-		CanisterGasoline,		*,		100,	20
+		Paper,					*,		-1,	5
+		Pen_Blue,				*,		-1,	-1
+		Rope,					*,		10,	2
+		TannedLeather,				*,		10,	1
+		AntiPestsSpray,				*,		8,	4
+		MetalWire,				*,		25,	2
+		EpoxyPutty,				*,		25,	2
+		DuctTape,				*,		25,	4
+		XmasLights,				*,		10,	2
+		HandcuffKeys,				*,		-1,	-1
+		Handcuffs,				*,		-1,	-1
+		Netting,				4,		100,	25
+		BurlapSack,				*,		70,	15
+		WoodenPlank,				10,		10,	-1
+		MetalPlate,				*,		20,	-1
+		SmallProtectorCase,			*,		10,	5
+		AmmoBox,				*,		10,	10
+		SmallGasCanister,			*,		10,	3
+		MediumGasCanister,			*,		15,	5
+		LargeGasCanister,			*,		25,	7
+		CanisterGasoline,			*,		100,	20
 		NailBox,				*,		100,	50
-		BarbedWire,				*,		10,		1
+		BarbedWire,				*,		10,	1
 		Camonet,				*,		100,	10
 		HescoBox,				*,		100,	10
-		CombinationLock,		*,		50,		5
+		CombinationLock,			*,		50,	5
 		CodeLock,				*,		100,	-1
-		BarrelHoles_Blue,		*,		150,	25
-		BarrelHoles_Green,		*,		150,	25
-		BarrelHoles_Red,		*,		150,	25
-		BarrelHoles_Yellow,		*,		150,	25
-		Barrel_Blue,			M,		150,	25
-		Barrel_Green,			M,		150,	25
-		Barrel_Red,				M,		10,		1
-		Barrel_Yellow,			M,		150,	15
+		BarrelHoles_Blue,			*,		150,	25
+		BarrelHoles_Green,			*,		150,	25
+		BarrelHoles_Red,			*,		150,	25
+		BarrelHoles_Yellow,			*,		150,	25
+		Barrel_Blue,				M,		150,	25
+		Barrel_Green,				M,		150,	25
+		Barrel_Red,				M,		10,	1
+		Barrel_Yellow,				M,		150,	15
 		SeaChest,				*,		200,	20
-		PowerGenerator,			*,		350,	35
+		PowerGenerator,				*,		350,	35
 		MediumTent,				*,		500,	50		
 		CarTent,				*,		900,	80
 		LargeTent,				*,		750,	75
 	
 	<Category> Seeds & Lime
-		TomatoSeedsPack,		*,		15, 	-1
-		PepperSeedsPack,		*,		15, 	-1
-		ZucchiniSeedsPack,		*,		15, 	-1
-		PumpkinSeedsPack,		*,		15, 	-1
-		GardenLime,				*,		15,		-1
+		TomatoSeedsPack,			*,		15, 	-1
+		PepperSeedsPack,			*,		15, 	-1
+		ZucchiniSeedsPack,			*,		15, 	-1
+		PumpkinSeedsPack,			*,		15, 	-1
+		GardenLime,				*,		15,	-1
 		
 	<Category> Fluffy Pets <3
-		Bear_Beige,				*,		-1,		15
-		Bear_Dark,				*,		-1,		15
-		Bear_Pink,				*,		-1,		15
-		Bear_White,				*,		-1,		15
+		Bear_Beige,				*,		-1,	15
+		Bear_Dark,				*,		-1,	15
+		Bear_Pink,				*,		-1,	15
+		Bear_White,				*,		-1,	15
 
 		
 <Trader> Weapon Trader
 	<Category> Melee	
-		BrassKnuckles_Shiny,	W,		15,		6
-		StunBaton,				W,		-1,		-1
-		Pipe,					W,		25,		5
-		CattleProd,				W,		-1,		-1
-		BaseballBat,			W,		40,		5
-		NailedBaseballBat,		W,		-1,		-1
+		BrassKnuckles_Shiny,			W,		15,	6
+		StunBaton,				W,		-1,	-1
+		Pipe,					W,		25,	5
+		CattleProd,				W,		-1,	-1
+		BaseballBat,				W,		40,	5
+		NailedBaseballBat,			W,		-1,	-1
 		
 	<Category> Sidearms
-		MakarovIJ70,			W,		100,	50
-		CZ75,					W,		135,	70
-		FNX45,					W,		175,	90
+		MakarovIJ70,				W,		25,	3
+		CZ75,					W,		50,	5
+		FNX45,					W,		50,	5
 		
 	<Category> Rifles
-		Izh18,					W,		150,	35
-		Mosin9130,				W,		150,	35
-		CZ527,					W,		200,	40
-		Winchester70,			W,		350,	60
-		SKS,					W,		250,	35
+		Izh18,					W,		150,	15
+		Mosin9130,				W,		300,	30
+		CZ527,					W,		400,	40
+		Winchester70,				W,		350,	100
+		SKS,					W,		250,	25
 		
 	<Category> Shotguns
-		Mp133Shotgun,			W,		123,	25
+		Mp133Shotgun,				W,		123,	25
 		
 	<Category> Submachine Guns
-		CZ61,					W,		700,	300
-		UMP45,					W,		800,	350
-		MP5K,					W,		1000,	450		
+		CZ61,					W,		75,	20
+		UMP45,					W,		200,	20
+		MP5K,					W,		100,	10		
 		
 	<Category> Assault Rifles
-		FAL,					W,		-1,		70
-		AKM,					W,		-1,		20
-		M4A1,					W,		-1,		20
+		FAL,					W,		-1,	70
+		AKM,					W,		-1,	20
+		M4A1,					W,		-1,	20
 		
 	//<Category> Light Machine Guns
 		
@@ -267,47 +267,47 @@
 		
 <Trader> Weapon Supplies
 	<Category> Ammunition
-		Ammo_380,				1,		1,		-1
-		Ammo_9x19,				1,		1,		-1
-		Ammo_45ACP,				1,		1,		-1
-		Ammo_12gaPellets,		1,		3,		-1
-		Ammo_12gaSlug,			1,		4,		-1
-		Ammo_9x39,				1,		4,		-1
-		Ammo_9x39AP,			1,		5,		-1
-		Ammo_308Win,			1,		5,		-1
-		Ammo_556x45,			1,		5,		-1
-		Ammo_762x39,			1,		5,		-1
-		Ammo_762x54,			1,		10,		-1
+		Ammo_380,				1,		-1,	1
+		Ammo_9x19,				1,		-1,	1
+		Ammo_45ACP,				1,		-1,	2
+		Ammo_12gaPellets,			1,		-1,	1
+		Ammo_12gaSlug,				1,		-1,	1
+		Ammo_9x39,				1,		-1,	1
+		Ammo_9x39AP,				1,		-1,	1
+		Ammo_308Win,				1,		-1,	4
+		Ammo_556x45,				1,		-1,	3
+		Ammo_762x39,				1,		-1,	3
+		Ammo_762x54,				1,		-1,	4
 		// When changing Prices here keep in Mind that Players
 		// can just unpack the Ammoboxes and sell the Ammo seperatly!
 		// Originally the Ammoboxes buying Price is 20% less than
 		// buying single Ammo. The Selling Price is the same as
 		// selling the Ammo seperately.
-		AmmoBox_380_35rnd,		*,		28,		0
-		AmmoBox_9x19_25rnd,		*,		20,		0
-		AmmoBox_45ACP_25rnd,	*,		20,		0
-		AmmoBox_00buck_10rnd,	*,		24,		10
-		AmmoBox_12gaSlug_10Rnd,	*,		32,		20
-		AmmoBox_9x39_20Rnd,		*,		32,		20
-		AmmoBox_9x39AP_20Rnd,	*,		80,		60
-		AmmoBox_308Win_20Rnd,	*,		80,		60
-		AmmoBox_556x45_20Rnd,	*,		80,		60
-		AmmoBox_762x39_20Rnd,	*,		80,		60
-		AmmoBox_762x54_20Rnd,	*,		200,	120
+		AmmoBox_380_35rnd,			*,		35,	-1
+		AmmoBox_9x19_25rnd,			*,		25,	-1
+		AmmoBox_45ACP_25rnd,			*,		50,	-1
+		AmmoBox_00buck_10rnd,			*,		10,	-1
+		AmmoBox_12gaSlug_10Rnd,			*,		10,	-1
+		AmmoBox_9x39_20Rnd,			*,		20,	-1
+		AmmoBox_9x39AP_20Rnd,			*,		20,	-1
+		AmmoBox_308Win_20Rnd,			*,		80,	-1
+		AmmoBox_556x45_20Rnd,			*,		60,	-1
+		AmmoBox_762x39_20Rnd,			*,		60,	-1
+		AmmoBox_762x54_20Rnd,			*,		80,	-1
 		
 	<Category> Magazines
 		Mag_IJ70_8Rnd,			M,		30,		15
 		Mag_CZ75_15Rnd,			M,		40,		20
 		Mag_FNX45_15Rnd,		M,		40,		20
 		Mag_CZ527_5rnd,			M,		60,		30
-		Mag_CZ61_20Rnd,			M,		100,	50
-		Mag_UMP_25Rnd,			M,		150,	75
-		Mag_MP5_30Rnd,			M,		200,	100
-		Mag_FAL_20Rnd,			M,		100,	50
-		Mag_AKM_30Rnd,			M,		220,	110
-		Mag_STANAG_30Rnd,		M,		220,	110
-		Mag_VSS_10Rnd,			M,		220,	110
-		Mag_SVD_10Rnd,			M,		250,	125
+		Mag_CZ61_20Rnd,			M,		100,		50
+		Mag_UMP_25Rnd,			M,		150,		75
+		Mag_MP5_30Rnd,			M,		200,		100
+		Mag_FAL_20Rnd,			M,		100,		50
+		Mag_AKM_30Rnd,			M,		220,		110
+		Mag_STANAG_30Rnd,		M,		220,		110
+		Mag_VSS_10Rnd,			M,		220,		110
+		Mag_SVD_10Rnd,			M,		250,		125
 		
 	<Category> Handguards
 		MP5_PlasticHndgrd,		*,		100,	50
